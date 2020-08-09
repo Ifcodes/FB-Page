@@ -9,6 +9,7 @@
 <body>
   <!-- the header section -->
   <nav class="navbar">
+    <div class="navCont">
       <a href="#" class="fb-logo"> facebook</a>
       <!-- spacer uses flex-grow to create spaces between logo and login input field -->
       <span class="spacer"></span>
@@ -26,6 +27,26 @@
           <button class="login-btn">Log in</button>
         </form>
       <!-- login authentication end -->
+    </div>
   </nav>
+    <!-- starts the main section -->
+  <section class="main">
+    <!-- introduction to the left side of the container -->
+    <div class="fb-intro">
+      <h3 class="intro">Facebook helps you connect and share with the people in your life.</h3>
+      <img src="/images/fbconnectimg.png" alt="connect with friends" class="connect-img">
+    </div>
+
+    <div class="signup">
+      <h1>Create an account</h1>
+      <p>It's quick and easy.</p>
+      <form action="" class="signup-form">
+        <div>
+          <input type="text" name="First Name" placeholder="First Name">
+          <input type="text" name="First Name" placeholder="Last Name">
+        </div>
+      </form>
+    </div>
+  </section>
 </body>
 </html>
