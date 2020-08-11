@@ -39,12 +39,50 @@
 
     <div class="signup">
       <h1>Create an account</h1>
-      <p>It's quick and easy.</p>
+      <p class="fnt-size">It's quick and easy.</p>
       <form action="" class="signup-form">
-        <div>
-          <input type="text" name="First Name" placeholder="First Name">
-          <input type="text" name="First Name" placeholder="Last Name">
+        <div class="primary-info">
+          <input type="text" name="First Name" placeholder="First Name" class="fname">
+          <input type="text" name="First Name" placeholder="Last Name" class="lname"><br>
+          <input type="text" name="First Name" placeholder="Mobile Number or Email Address" class="mob-num"><br>
+          <input type="password" name="First Name" placeholder="New Password" class="newPass">
         </div>
+        <div class="dateOfBirth">
+          <h3>Date of birth</h3>
+          <select name="birth-day" id="">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+          </select>
+          <select name="birth-month" id="">
+            <option value="">Jan</option>
+            <option value="February">Feb</option>
+            <option value="March">Mar</option>
+            <option value="May">April</option>
+          </select>
+         <select name="birth-year" id="">
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+         </select>
+         <sup>?</sup>
+        </div>
+        <div class="gender">
+          <h3>Gender</h3>
+          <input type="radio" name="First Name" placeholder="New Password" id="Female">
+          <label for="Female">Female</label>
+          <input type="radio" name="First Name" placeholder="New Password" id="male">
+          <label for="male">Male</label>
+          <input type="radio" name="First Name" placeholder="New Password" id="custom">
+          <label for="custom">Custom</label>
+          <sup>?</sup>
+        </div>
+        <p class="condition">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+        </p>
+        <button class="signup-btn">Sign Up</button>
+        <p class="page"> <a href=""> Create a Page</a> for a celebrity, band or business.</p>
       </form>
     </div>
   </section>
