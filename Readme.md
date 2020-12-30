@@ -1,5 +1,5 @@
 # FB-Page
-A demo implementation of Facebook homepage.
+A demo implementation of Facebook homepage. This a demo application and for learning purpose only.
 
 ## Preview
 [view](https://fb-home-chlone-byifcodes.netlify.app)
